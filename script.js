@@ -80,7 +80,7 @@ document.getElementById("enquiryForm").addEventListener("submit", function (even
     submitBtn.classList.remove("show");
 
 
-    fetch("https://formspree.io/f/xldlzqnr", {
+    fetch("https://formspree.io/f/xblkbdwl", {
         method: "POST",
         body: data,
         headers: {
