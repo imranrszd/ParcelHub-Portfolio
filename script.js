@@ -64,3 +64,40 @@ if (feedbacks.length > 1) {
         updateFeedback(currentIndex);
     });
 }
+
+// form disable another page after submition
+
+document.getElementById("enquiryForm").addEventListener("submit", function (event) {
+    event.preventDefault(); // stop normal form submission
+
+    const form = event.target;
+    const data = new FormData(form);
+    const submitBtn = document.getElementById("submitBtn");
+
+    // Disable and fade out button text
+    submitBtn.disabled = true;
+    submitBtn.classList.add("fade-text");
+    submitBtn.classList.remove("show");
+
+
+    fetch("https://formspree.io/f/xldlzqnr", {
+        method: "POST",
+        body: data,
+        headers: {
+            "Accept": "application/json"
+        }
+    }).then(response => {
+        if (response.ok) {
+            setTimeout(() => {
+                // Change text and style after fade-out
+                submitBtn.textContent = "Sent ✓";
+                submitBtn.classList.add("sent");
+                submitBtn.classList.add("show");
+            }, 300);
+        }
+    }).catch(() => {
+        submitBtn.textContent = "Error ❌";
+        submitBtn.style.backgroundColor = "#e74c3c";
+    });
+});
+
