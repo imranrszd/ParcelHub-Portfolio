@@ -53,6 +53,7 @@ header {
 
 .banner>img {
     max-width: 800px;
+    width: 60%;
     max-height: max-content;
 }
 
@@ -64,7 +65,8 @@ header {
     }
 
     .banner>img {
-        max-width: 90%;
+        width: 100%;
+        height: max-content;
     }
 }
 
