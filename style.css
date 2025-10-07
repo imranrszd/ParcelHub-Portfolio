@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #191970;
+    --primary-color: #1E40AF;
     --button-priamry-color: #665eff;
     --secondary-color: rgb(128, 193, 253);
     --background-color: #F5F7FA;
@@ -338,7 +338,7 @@ header {
 }
 
 .preview .left {
-    background-color: #031273;
+    background-color: #172d75;
     width: 60%;
     overflow: hidden;
     padding-top: 80px;
