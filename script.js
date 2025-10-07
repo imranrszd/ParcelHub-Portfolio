@@ -2,15 +2,15 @@
 const feedbacks = [
     {
         image: "assets/miku-shahalam.png",
-        text: "“ With Parcelhub, I can process and track parcels less than 4 seconds. Everything is smooth, reliable, and easy to manage. ”",
+        text: "“ With Qylex, I can process and track parcels less than 4 seconds. Everything is smooth, reliable, and easy to manage. ”",
         author: "- En. Hamizan",
         organization: "MiKu Point By Mili Express"
     }
     ,
     {
         image: "assets/unistorage-arau.webp",
-        text: "“ Parcelhub has made my deliveries faster and my customers happier. Definitely a must-have for my business. ”",
-        author: "- En. Khairil",
+        text: "“ Qylex has made my deliveries faster and my customers happier. Definitely a must-have for my business. ”",
+        author: "- En. Khairi",
         organization: "Unistorage Arau"
     },
 ];
@@ -74,7 +74,7 @@ document.getElementById("enquiryForm").addEventListener("submit", function (even
     submitBtn.classList.remove("show");
 
 
-    fetch("https://formspree.io/f/xblkbdwl", {
+    fetch("https://formspree.io/f/xqaydepz", {
         method: "POST",
         body: data,
         headers: {
