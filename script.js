@@ -2,23 +2,17 @@
 const feedbacks = [
     {
         image: "assets/miku-shahalam.png",
-        text: "“ With Parcelhub, I can process and track parcels faster than ever. Everything is smooth, reliable, and easy to manage. ”",
-        author: "- En. Asyraf",
+        text: "“ With Parcelhub, I can process and track parcels less than 4 seconds. Everything is smooth, reliable, and easy to manage. ”",
+        author: "- En. Hamizan",
         organization: "MiKu Point By Mili Express"
     }
-    // ,
-    // {
-    //     image: "assets/parcelhub-kl.png",
-    //     text: "“ Parcelhub has made my deliveries faster and my customers happier. Definitely a must-have for my business. ”",
-    //     author: "- Pn. Salmah",
-    //     organization: "ParcelHub KL"
-    // },
-    // {
-    //     image: "assets/parcelhub-jb.png",
-    //     text: "“ The tracking system is top-notch and the interface is so easy to use. Highly recommended! ”",
-    //     author: "- Mr. Lim",
-    //     organization: "ParcelHub Johor Bahru"
-    // }
+    ,
+    {
+        image: "assets/unistorage-arau.webp",
+        text: "“ Parcelhub has made my deliveries faster and my customers happier. Definitely a must-have for my business. ”",
+        author: "- En. Khairil",
+        organization: "Unistorage Arau"
+    },
 ];
 
 let currentIndex = 0;
