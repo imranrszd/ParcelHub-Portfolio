@@ -1,17 +1,17 @@
 // Feedback data
 const feedbacks = [
     {
-        image: "assets/miku-shahalam.png",
+        image: "assets/miku-logo.png",
         text: "“ With Qylex, I can process and track parcels less than 4 seconds. Everything is smooth, reliable, and easy to manage. ”",
-        author: "- En. Hamizan",
-        organization: "MiKu Point By Mili Express"
+        author: "En. Hamizan",
+        organization: "MiKu Point By Mili Express - (UiTM Shah Alam)"
     }
     ,
     {
-        image: "assets/unistorage-arau.webp",
+        image: "assets/unistorage-logo.png",
         text: "“ Qylex has made my deliveries faster and my customers happier. Definitely a must-have for my business. ”",
-        author: "- En. Khairi",
-        organization: "Unistorage Arau"
+        author: "En. Khairi",
+        organization: "Unistorage Arau - (UiTM Arau)"
     },
 ];
 
@@ -19,7 +19,7 @@ let currentIndex = 0;
 
 // Select elements
 const feedbackContainer = document.querySelector('.feedback');
-const imageEl = document.querySelector('.feedback .image img');
+const imageEl = document.querySelector('.feedback .logo img');
 const textEl = document.querySelector('.feedback .feed-text p');
 const authorEl = document.querySelector('.feedback .author-name p');
 const orgEl = document.querySelector('.feedback .organization p');
@@ -94,4 +94,6 @@ document.getElementById("enquiryForm").addEventListener("submit", function (even
         submitBtn.style.backgroundColor = "#e74c3c";
     });
 });
+
+
 
