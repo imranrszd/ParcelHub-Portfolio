@@ -398,7 +398,6 @@ header>a:hover {
     justify-content: center;
     align-items: center;
     /* background-color: #031273; */
-    border-bottom: rgb(202, 202, 202) solid 1px;
 }
 
 .preview .left {
@@ -472,8 +471,8 @@ header>a:hover {
     align-items: center;
     padding: 80px 20px;
     padding-bottom: 160px;
-    background-color: var(--primary-color);
-    color: #FFF;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 form {
@@ -537,9 +536,9 @@ form textarea::placeholder {
 
 form button {
     background-color: transparent;
-    color: white;
+    color: var(--primary-color);
     padding: 10px 20px;
-    border: white solid 2px;
+    border: var(--primary-color) solid 2px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
@@ -547,8 +546,8 @@ form button {
 }
 
 form button:hover {
-    background-color: white;
-    color: var(--text-color);
+    background-color: var(--primary-color);
+    color: white;
     font-weight: 600;
 }
 
@@ -574,7 +573,7 @@ form button:hover {
 
 .contact>hr {
     width: 50%;
-    border: #FFF solid 1px;
+    border: black solid 1px;
 }
 
 .another-link {
